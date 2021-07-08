@@ -1,0 +1,16 @@
+Code Commit Setup
+
+	1. AWS CLI configuration
+	
+	aws configure --profile usprod
+	aws configure list --profile usprod
+	
+	2. Git configuration
+	
+	To add default credential helper:
+	
+	git config --global credential.helper '!aws --profile qat codecommit credential-helper $@'
+	git config --global credential.UseHttpPath true
+	
+	git config --global --list --show-origin
+
