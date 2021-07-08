@@ -1,0 +1,68 @@
+$ brew leaves | xargs -n1 brew desc
+
+apib: HTTP performance-testing tool
+ali: Generate HTTP load and plot the results in real-time
+archey: Graphical system information display for macOS
+aws-elasticbeanstalk: Client for Amazon Elastic Beanstalk web service
+aws-shell: Integrated shell for working with the AWS CLI
+aws-sam-cli: AWS SAM CLI 🐿 is a tool for local development and testing of Serverless applications
+awscli: Official Amazon AWS command-line interface
+cask: Emacs dependency management
+cassowary: Modern cross-platform HTTP load-testing tool written in Go
+consul: Tool for service discovery, monitoring and configuration
+elasticsearch-full: Distributed search & analytics engine
+kibana-full: Analytics and search dashboard for Elasticsearch
+logstash-full: Tool for managing events and logs
+filebeat: File harvester to ship log files to Elasticsearch or Logstash
+fish: User-friendly command-line shell for UNIX-like operating systems
+fzf: Command-line fuzzy finder written in Go
+gh: GitHub command-line tool
+git: Distributed revision control system
+gradle: Open-source build automation tool based on the Groovy and Kotlin DSL
+grafana: Gorgeous metric visualizations and dashboards for timeseries databases
+hstr: Bash and zsh history suggest box
+htop: Improved top (interactive process viewer)
+httpd: Apache HTTP server
+httpie: User-friendly cURL replacement (command-line HTTP client)
+httping: Ping-like tool for HTTP requests
+hub: Add GitHub support to git on the command-line
+jenv: Manage your Java environment
+lazygit: A simple terminal UI for git commands, written in Go
+jq: Lightweight and flexible command-line JSON processor
+kafka: Open-source distributed event streaming platform
+lnav: Curses-based tool for viewing and analyzing log files
+lua@5.1: Powerful, lightweight programming language (v5.1.5)
+lynx: Text-based web browser
+maven: Java-based project management
+maven@3.5: Java-based project management
+minikube: Run a Kubernetes cluster locally
+nmap: Port scanning utility for large networks
+openconnect: Open client for Cisco AnyConnect VPN
+p7zip: 7-Zip (high compression file archiver) implementation
+peco: Simplistic interactive filtering tool
+perl: Highly capable, feature-rich programming language
+springboot: [no description]
+prometheus: Service monitoring system and time series database
+pyenv: Python version management
+redis: Persistent key-value database, with built-in net interface
+speedtest-cli: Command-line interface for https://speedtest.net bandwidth tests
+sshuttle: Proxy server that works as a poor man's VPN
+sslscan: Test SSL/TLS enabled services to discover supported cipher suites
+subversion: Version control system designed to be a better CVS
+telnet: User interface to the TELNET protocol
+tldr: Simplified and community-driven man pages
+tree: Display directories as trees (with optional color/HTML output)
+wget: Internet file retriever
+wireshark: Graphical network analyzer and capture tool
+yarn: JavaScript package manager
+yq: Process YAML documents from the CLI
+zsh-syntax-highlighting: Fish shell like syntax highlighting for zsh
+
+
+$ brew list --cask
+
+keystore-explorer
+kite
+rectangle
+zulu11
+zulu8
