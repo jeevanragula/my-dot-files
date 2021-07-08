@@ -1,0 +1,44 @@
+Print Java command line arguments
+java -XX:+PrintCommandLineFlags -version
+ 
+Check TLS Version
+
+nmap --script ssl-enum-ciphers -p 8443 t3377-qaas2.do.devshn.net
+openssl s_client -connect t3377-qaas2.do.devshn.net:8443 -tls1_2
+sslscan --show-cipher-ids t10203-qat.do.devshn.net:844
+
+
+Check the process on a port
+Linux: lsof -nP -iTCP:8443 | grep LISTEN
+Windows: Get-Process -Id (Get-NetTCPConnection -LocalPort portNumber).OwningProcess
+
+Check EC2 Machine information
+curl -s http://169.254.169.254/latest/dynamic/instance-identity/document
+
+Check connectivity
+Linux: nc -zv <host> <port>
+Windows: New-Object System.Net.Sockets.TcpClient("www.myshn.net", 443)
+
+Check public IP of a node
+dig +short myip.opendns.com @resolver1.opendns.com
+ 
+View file permissions in Octal format
+stat -c '%A %a %n' *
+
+Certificate Commands
+
+ 
+1. To View CSR Entries
+ 
+openssl req -text -noout -verify -in domain.csr
+ 
+2. To View certificate information
+openssl x509 -text -noout -in domain.crt
+ 
+3. Using keytool to view information of a certificate
+keytool -printcert -file domain.crt
+ 
+4. View Keystore entries
+keytool -list -v -keystore keystore.jks
+
+
