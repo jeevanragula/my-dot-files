@@ -1,68 +1,85 @@
-$ brew leaves | xargs -n1 brew desc
-
+$ brew leaves | xargs -n1 brew desc --eval-all
+act: Run your GitHub Actions locally 🚀
+tunnelto: Expose your local web server to the internet with a public url: https://tunnelto.dev
 apib: HTTP performance-testing tool
-ali: Generate HTTP load and plot the results in real-time
-archey: Graphical system information display for macOS
-aws-elasticbeanstalk: Client for Amazon Elastic Beanstalk web service
-aws-shell: Integrated shell for working with the AWS CLI
-aws-sam-cli: AWS SAM CLI 🐿 is a tool for local development and testing of Serverless applications
+trivy: Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues
+argocd: GitOps Continuous Delivery for Kubernetes
+auth0: Auth0 command-line tool to supercharge your developer workflow
 awscli: Official Amazon AWS command-line interface
+azure-cli: Microsoft Azure CLI 2.0
+bash-completion: Programmable completion for Bash 3.2
+bat: Clone of cat(1) with syntax highlighting and Git integration
+buf: A new way of working with Protocol Buffers.
 cask: Emacs dependency management
-cassowary: Modern cross-platform HTTP load-testing tool written in Go
-consul: Tool for service discovery, monitoring and configuration
-elasticsearch-full: Distributed search & analytics engine
-kibana-full: Analytics and search dashboard for Elasticsearch
-logstash-full: Tool for managing events and logs
-filebeat: File harvester to ship log files to Elasticsearch or Logstash
-fish: User-friendly command-line shell for UNIX-like operating systems
+chart-testing: Testing and linting Helm charts
+checkov: Prevent cloud misconfigurations during build-time for IaC tools
+k9s: Kubernetes CLI To Manage Your Clusters In Style!
+devspace: CLI helps develop/deploy/debug apps with Docker and k8s
+dive: Tool for exploring each layer in a docker image
+Warning: Treating docker as a formula. For the cask, use homebrew/cask/docker
+docker: Pack, ship and run any application as a lightweight container
+docker-machine: Create Docker hosts locally and on cloud providers
+eksctl: Simple command-line tool for creating clusters on Amazon EKS
+exa: Modern replacement for 'ls'
+flux: Flux CLI
 fzf: Command-line fuzzy finder written in Go
 gh: GitHub command-line tool
-git: Distributed revision control system
-gradle: Open-source build automation tool based on the Groovy and Kotlin DSL
+glow: Render markdown on the CLI
+go-swagger: Toolkit to work with swagger for golang
+golangci-lint: Fast linters runner for Go
+goreleaser: Deliver Go binaries as fast and easily as possible
 grafana: Gorgeous metric visualizations and dashboards for timeseries databases
-hstr: Bash and zsh history suggest box
-htop: Improved top (interactive process viewer)
-httpd: Apache HTTP server
+vault: Vault
+helm: Kubernetes package manager
+chart-releaser: Hosting Helm Charts via GitHub Pages and Releases
+Warning: Treating httpie as a formula. For the cask, use homebrew/cask/httpie
 httpie: User-friendly cURL replacement (command-line HTTP client)
-httping: Ping-like tool for HTTP requests
 hub: Add GitHub support to git on the command-line
-jenv: Manage your Java environment
-lazygit: A simple terminal UI for git commands, written in Go
+jenkins: Extendable open source continuous integration server
 jq: Lightweight and flexible command-line JSON processor
 kafka: Open-source distributed event streaming platform
+kind: Run local Kubernetes cluster in Docker
+krew: Package manager for kubectl plugins
+kube-ps1: Kubernetes prompt info for bash and zsh
+kubeaudit: Helps audit your Kubernetes clusters against common security controls
+kubectx: Tool that can switch between kubectl contexts easily and create aliases
+kubernetes-cli@1.22: Kubernetes command-line interface
+kubeseal: Kubernetes controller and tool for one-way encrypted Secrets
+kustomize: Template-free customization of Kubernetes YAML manifests
+lazygit: Simple terminal UI for git commands
+librdkafka: Apache Kafka C/C++ library
 lnav: Curses-based tool for viewing and analyzing log files
-lua@5.1: Powerful, lightweight programming language (v5.1.5)
-lynx: Text-based web browser
 maven: Java-based project management
-maven@3.5: Java-based project management
 minikube: Run a Kubernetes cluster locally
+mockery: Mock code autogenerator for Golang
+mongocli: MongoDB CLI enables you to manage your MongoDB in the Cloud
+mongodb-community: High-performance, schema-free, document-oriented database
+nghttp2: HTTP/2 C Library
 nmap: Port scanning utility for large networks
-openconnect: Open client for Cisco AnyConnect VPN
-p7zip: 7-Zip (high compression file archiver) implementation
-peco: Simplistic interactive filtering tool
-perl: Highly capable, feature-rich programming language
-springboot: [no description]
+node: Platform built on V8 to build network applications
+node@12: Platform built on V8 to build network applications
+node@14: Platform built on V8 to build network applications
+openssl@3: Cryptography and SSL/TLS Toolkit
+pre-commit: Framework for managing multi-language pre-commit hooks
+prestodb: Distributed SQL query engine for big data
 prometheus: Service monitoring system and time series database
-pyenv: Python version management
+python-tabulate: Pretty-print tabular data in Python
+python@3.9: Interpreted, interactive, object-oriented programming language
 redis: Persistent key-value database, with built-in net interface
-speedtest-cli: Command-line interface for https://speedtest.net bandwidth tests
+kube-capacity: kube-capacity provides an overview of the resource requests, limits, and utilization in a Kubernetes cluster
+rust: Safe, concurrent, practical language
+sbt: Build tool for Scala projects
+skaffold: Easy and Repeatable Kubernetes Development
+sops: Editor of encrypted files
+sqlc: Generate type safe Go from SQL
 sshuttle: Proxy server that works as a poor man's VPN
 sslscan: Test SSL/TLS enabled services to discover supported cipher suites
-subversion: Version control system designed to be a better CVS
-telnet: User interface to the TELNET protocol
+terrascan: Detect compliance and security violations across Infrastructure as Code
 tldr: Simplified and community-driven man pages
 tree: Display directories as trees (with optional color/HTML output)
 wget: Internet file retriever
-wireshark: Graphical network analyzer and capture tool
-yarn: JavaScript package manager
 yq: Process YAML documents from the CLI
-zsh-syntax-highlighting: Fish shell like syntax highlighting for zsh
 
 
 $ brew list --cask
-
-keystore-explorer
-kite
-rectangle
-zulu11
-zulu8
+bloomrpc		mongodb-compass		ngrok			postman			snowflake-snowsql	sublime-text		zulu11
